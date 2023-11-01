@@ -24,3 +24,36 @@
 
 ## Aula 6
 Explicação sobre variáveis com let
+
+## Aula 7
+- Não podemos criar constantes com palavras reservadas
+- Constantes precisam ter nomes significativos
+- Não pode começar o nome de uma constante com um número
+- Não podem conter espaços ou traços
+- Utilizamos camelCase
+- Case-sensitive
+- Não podemos modificar o valor de uma constante
+- NÃO UTILIZAR VAR, UTILIZAR CONST
+- Uma constante precisa ser inicializada, não pode ser somente declarada
+- Não pode ser modificada após declarada e inicializada. Caso precisar de modificação, utilizar o let.
+
+## Aula 8
+- Exercício: Calculo de IMC
+
+## Aula 9
+#### ECMAScript 2015 (ES6)
+
+Foi introduzido o `var` que é muito parecido com o `let`, mas que permite que seja declarada novamente o mesmo nome de variável já declarado antes.
+
+Ex:
+```js
+// primeira declaração
+var nome = 'André';
+console.log(nome);
+
+// declarando novamente com mesmo nome
+var nome = 'Santos'; 
+console.log(nome);
+```
+
+### Aula 10
