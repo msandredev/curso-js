@@ -21,3 +21,6 @@
 > No arquivo HTML, pode-se incluir a chamada ao arquivo javascript (index.js) tanto na tag \<head\> quanto na tag \<body\>.
 
 >_Na tag <head> não é uma boa prática pois pode retardar o carregamento da página. O melhor a se fazer é incluir no final da tag \<body\>_
+
+## Aula 6
+Explicação sobre variáveis com let
