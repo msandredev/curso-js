@@ -1,59 +1,19 @@
-# Minhas Anotações
+# Indice
 
-## Aula 1
+## Bloco 001 
 
-- [x] Instalação e configuração do VS Code (Windows e Linux)
-- [x] Instalação dos plugins no VS Code (Code Runner)
-- [x] Executando primeiro arquivo JS exibindo "Hello World"
+- [Aula 01 - Instalação e configuração](./bloco01/aula01.md)
+- [Aula 02 - Exercício](./aula02/aula02.md)
 
-## Aula 2
-- [x] Exercício
+## Bloco 002
+- [Aula 03 - A função console.log](./bloco02/aula03.md)
+- [Aula 03 - Exercício](./bloco02/aula03/exercicio.md)
+- [Aula 04 - Comentários](./bloco02/aula04.md)
+- [Aula 05 - Motor de execução e o Code Runner](./bloco02/aula05/aula05.md)
+- [Aula 06 - Variáveis com let](./bloco02/aula06/aula06.md)
+- [Aula 07 - Constantes com const](./bloco02/aula07/aula07.md)
+- [Aula 08 - Exercício: Calculo de IMC](./bloco02/aula08/aula08.md)
+- [Aula 09 - ECMAScript 2015 (ES6)](./bloco02/aula09/aula09.md)
 
-## Aula 3
----XXX---
+## Bloco 003
 
-## Aula 4
-- [x] Comentários de código
-
-## Aula 5
-- Executar no navegador X executar no NodeJS
-
-> No arquivo HTML, pode-se incluir a chamada ao arquivo javascript (index.js) tanto na tag \<head\> quanto na tag \<body\>.
-
->_Na tag <head> não é uma boa prática pois pode retardar o carregamento da página. O melhor a se fazer é incluir no final da tag \<body\>_
-
-## Aula 6
-Explicação sobre variáveis com let
-
-## Aula 7
-- Não podemos criar constantes com palavras reservadas
-- Constantes precisam ter nomes significativos
-- Não pode começar o nome de uma constante com um número
-- Não podem conter espaços ou traços
-- Utilizamos camelCase
-- Case-sensitive
-- Não podemos modificar o valor de uma constante
-- NÃO UTILIZAR VAR, UTILIZAR CONST
-- Uma constante precisa ser inicializada, não pode ser somente declarada
-- Não pode ser modificada após declarada e inicializada. Caso precisar de modificação, utilizar o let.
-
-## Aula 8
-- Exercício: Calculo de IMC
-
-## Aula 9
-#### ECMAScript 2015 (ES6)
-
-Foi introduzido o `var` que é muito parecido com o `let`, mas que permite que seja declarada novamente o mesmo nome de variável já declarado antes.
-
-Ex:
-```js
-// primeira declaração
-var nome = 'André';
-console.log(nome);
-
-// declarando novamente com mesmo nome
-var nome = 'Santos'; 
-console.log(nome);
-```
-
-### Aula 10
